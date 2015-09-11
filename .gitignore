@@ -1,0 +1,13 @@
+img_edit/
+data/sound/
+data/patterns/
+data/ico
+log/
+screenshots/
+backup/
+configs/
+layouts/
+*.ahk.ini
+*.exe
+*settings.ini
+*temp.ini
