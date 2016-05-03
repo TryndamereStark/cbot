@@ -190,6 +190,7 @@ readGeneralConfig()
         
         iniLabel := "CLICKS"
         clickModifier := myIniRead(path, iniLabel, "clickModifier")
+        nextDelay := myIniRead(path, iniLabel, "nextDelay")
         
 }
 

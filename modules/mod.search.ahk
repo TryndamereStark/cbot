@@ -25,6 +25,7 @@ search(mode = "normal")
     global thOutside
     global attackType
     global thCoords
+    global nextDelay
     
     if(searchType = "all")
         typeDisplay := txt["SEARCH_ALL"]
@@ -163,6 +164,7 @@ search(mode = "normal")
             forced := true
             Goto FORCED_MATCH
         }  
+        Sleep nextDelay * 1000
 		myClick("740,492", 100) ; klikniecie next
         Sleep 1000 ; czas na zasloniecie biezacego widoku oblokami
         noGold := checkNoGold("after")

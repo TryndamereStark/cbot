@@ -204,25 +204,25 @@ changeModeIco("f5")
 autoFarming()
 return
 
-f7::
-; point := findClosest("190,370")
-; MsgBox % point
-; showLine(z3["a"], z3["b"])
-autobookmarksAdds()
-return
+; f7::
+; ; point := findClosest("190,370")
+; ; MsgBox % point
+; ; showLine(z3["a"], z3["b"])
+; autobookmarksAdds()
+; return
 
-;#Include myTools\_testerLabels.ahk
+; ;#Include myTools\_testerLabels.ahk
 
-f8::
-autoAdds()
-; changeModeIco("f9")
-; ; start := A_TickCount 
-; ; result := tester()
-; ; stop := A_TickCount
-; ; duration := (stop - start)/1000
-; ; ;MsgBox % "Czas: " duration "s"
-; ; guiBar("Result: " result " | Czas: " duration "s")
-return
+; f8::
+; autoAdds()
+; ; changeModeIco("f9")
+; ; ; start := A_TickCount 
+; ; ; result := tester()
+; ; ; stop := A_TickCount
+; ; ; duration := (stop - start)/1000
+; ; ; ;MsgBox % "Czas: " duration "s"
+; ; ; guiBar("Result: " result " | Czas: " duration "s")
+; return
 
 f9::pause
 
